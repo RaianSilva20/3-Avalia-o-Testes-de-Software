@@ -5,7 +5,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run:questao-1": "cypress run --spec \"cypress/e2e/questao-1.cy.js\""
+    "cy:run:questao-1": "cypress run --spec \"cypress/e2e/questao-1.cy.js\"",
+    "cy:run:questao-2": "cypress run --spec \"cypress/e2e/questao-2.cy.js\""
   },
   "devDependencies": {
     "cypress": "^16.1.1"

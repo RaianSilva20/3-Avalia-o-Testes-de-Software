@@ -36,5 +36,6 @@ npm run cy:open
 ## Questoes
 
 - Questao 1: envio do formulario de login com usuario e senha vazios; verifica o texto da mensagem e a classe CSS `error` no elemento `#flash`.
+- Questao 2: clica em `Start`, aguarda o elemento `#loading` desaparecer e verifica a exibicao de `Hello World!`.
 
 O workflow do GitHub Actions executa os testes automaticamente em novos pushes e pull requests.
