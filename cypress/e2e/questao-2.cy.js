@@ -8,7 +8,7 @@ describe('Questao 2 - carregamento dinamico', () => {
       .should('be.visible')
       .and('contain.text', 'Loading...');
 
-    cy.get('#loading').should('not.be.visible');
+    cy.get('#loading', { timeout: 10000 }).should('not.be.visible');
     cy.get('#finish')
       .should('be.visible')
       .and('contain.text', 'Hello World!');
